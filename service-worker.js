@@ -1,4 +1,4 @@
-const CACHE_NAME = "chikitines-catalogo-v4";
+const CACHE_NAME = "chikitines-catalogo-v6";
 const CORE_FILES = [
   "./", "./index.html", "./css/styles.css", "./js/app.js", "./manifest.webmanifest",
   "./images/hero-dulces.svg", "./images/familia-sonrics.svg", "./images/familia-mexicana.svg", "./images/antojo-feliz.svg",
