@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff4d7">
+  <meta name="description" content="Descubre el catálogo de Dulcería y más… Los Chikitines: dulces, piñatas, globos, pelotas y artículos para tu fiesta.">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="icons/chikitines-icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/styles.css?v=5">
+  <title>Dulcería y más… Los Chikitines | Un mundo de antojos</title>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <div class="announcement" role="note">
+    <span class="announcement-sparkle" aria-hidden="true">✦</span>
+    Un mundo de dulces, colores y sonrisas
+    <span class="announcement-sparkle" aria-hidden="true">✦</span>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner page-shell">
+      <a class="brand" href="#inicio" aria-label="Los Chikitines, inicio">
+        <img class="brand-logo" src="images/logo-chikitines.png" alt="Dulcería y más… Los Chikitines: piñatas, dulces, globos, pelotas, duritos y desechables" width="814" height="194">
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#promociones">Promociones</a>
+        <a href="#familias">Nuestras familias</a>
+        <a href="#nosotros">La dulcería</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="sound-toggle" id="soundToggle" type="button" aria-pressed="false" aria-label="Activar música">
+          <span aria-hidden="true">♫</span><span class="sound-label">Activar música</span>
+        </button>
+        <button class="cart-trigger" id="cartOpen" type="button" aria-label="Abrir carrito">Carrito <span id="cartCount">0</span></button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Abrir menú"><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Navegación móvil" hidden>
+      <a href="#catalogo">Catálogo</a><a href="#promociones">Promociones</a><a href="#familias">Nuestras familias</a><a href="#nosotros">La dulcería</a><a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero-confetti" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="page-shell hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span>Puerto Vallarta · Jalisco</p>
+          <h1>Un mundo de<br><span class="headline-highlight">dulces</span> para<br>compartir<span class="headline-period">.</span></h1>
+          <p class="hero-description">Pequeñas alegrías, grandes sonrisas. Descubre una selección de antojos Sonric’s y dulces típicos de México.</p>
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#catalogo">Explorar catálogo <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#familias">Conoce nuestras familias <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-stamps" aria-label="Características del catálogo">
+            <span><b aria-hidden="true">✦</b> Menudeo y mayoreo</span>
+            <span><b aria-hidden="true">♡</b> Dulces para todos</span>
+          </div>
+        </div>
+        <div class="hero-art-wrap">
+          <div class="hero-sun" aria-hidden="true"></div>
+          <div class="hero-art-card">
+            <span class="art-sticker sticker-top">¡Qué rico!</span>
+            <img src="images/hero-dulces.svg" alt="Ilustración colorida de caramelos, paletas y dulces típicos mexicanos" width="720" height="620">
+            <span class="art-sticker sticker-bottom">un gustito feliz</span>
+          </div>
+          <span class="hero-orbit orbit-one" aria-hidden="true"></span>
+          <span class="hero-orbit orbit-two" aria-hidden="true"></span>
+          <span class="hero-star star-one" aria-hidden="true">✦</span><span class="hero-star star-two" aria-hidden="true">✧</span>
+        </div>
+      </div>
+      <div class="hero-bottom-note page-shell"><span>Sonric’s</span><i></i><span>Dulces típicos mexicanos</span><i></i><span>Momentos felices</span></div>
+    </section>
+
+    <div class="ticker" aria-label="Dulces, antojos y sonrisas">
+      <div class="ticker-track" aria-hidden="true">
+        <span>ANTOJOS FELICES</span><b>✦</b><span>SABOR MEXICANO</span><b>✦</b><span>UN MUNDO DE DULCES</span><b>✦</b><span>ANTOJOS FELICES</span><b>✦</b><span>SABOR MEXICANO</span><b>✦</b><span>UN MUNDO DE DULCES</span><b>✦</b>
+      </div>
+    </div>
+
+    <section class="section catalog-section" id="catalogo">
+      <div class="page-shell">
+        <div class="section-heading section-heading-split">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span>Escoge tu antojo</p><h2>El catálogo <span>Chikitines</span></h2></div>
+          <p class="heading-aside">Un surtido de muestra para que descubras cómo se verá cada producto y su presentación.</p>
+        </div>
+
+        <div class="sample-ribbon"><span aria-hidden="true">✦</span> Productos y precios de ejemplo · Se actualizarán con el surtido real <span aria-hidden="true">✦</span></div>
+
+        <div class="catalog-tools">
+          <div class="filter-list" role="group" aria-label="Filtrar por familia">
+            <button class="filter-chip is-active" data-filter="todos" type="button" aria-pressed="true">Todo el catálogo</button>
+            <button class="filter-chip" data-filter="sonrics" type="button" aria-pressed="false">Sonric’s</button>
+            <button class="filter-chip" data-filter="mexicanos" type="button" aria-pressed="false">Dulces mexicanos</button>
+          </div>
+          <label class="search-box"><span aria-hidden="true">⌕</span><span class="visually-hidden">Buscar dulces</span><input id="catalogSearch" type="search" placeholder="¿Qué se te antoja?" autocomplete="off"></label>
+        </div>
+
+        <div class="catalog-list" id="catalogGrid" aria-live="polite"></div>
+        <div class="empty-state" id="emptyState" hidden><span aria-hidden="true">🍬</span><p>No encontramos ese antojo.</p><button class="text-link" id="clearSearch" type="button">Ver todo el catálogo</button></div>
+        <p class="catalog-note"><span aria-hidden="true">✦</span> El mínimo de mayoreo y los precios finales se configuran por producto.</p>
+      </div>
+    </section>
+
+    <section class="promo-section" id="promociones">
+      <div class="page-shell promo-layout">
+        <div class="promo-intro"><p class="eyebrow"><span class="eyebrow-line"></span>Un motivo más para sonreír</p><h2>Promociones<br><span>de temporada</span></h2><p>Este espacio queda listo para anunciar ofertas y novedades de la dulcería.</p></div>
+        <article class="promo-card promo-card-yellow"><span class="promo-burst" aria-hidden="true">✦</span><p>ESPACIO PARA OFERTA</p><h3>Tu próxima promo<br>va aquí</h3><span>Imagen y vigencia editables</span></article>
+        <article class="promo-card promo-card-pink"><span class="promo-burst" aria-hidden="true">✦</span><p>ESPACIO PARA NOVEDAD</p><h3>Un antojo nuevo<br>por descubrir</h3><span>Texto, foto y producto</span></article>
+      </div>
+    </section>
+
+    <section class="family-section" id="familias">
+      <div class="page-shell">
+        <div class="section-heading centered-heading">
+          <p class="eyebrow"><span class="eyebrow-line"></span>Dos mundos para disfrutar<span class="eyebrow-line"></span></p>
+          <h2>De la marca que te gusta<br><span>al sabor de nuestra tierra.</span></h2>
+        </div>
+        <div class="family-grid">
+          <article class="family-card family-sonrics">
+            <div class="family-image"><img src="images/familia-sonrics.svg" alt="Ilustración de dulces coloridos en envolturas brillantes" width="520" height="360" loading="lazy"><span class="family-number">01</span></div>
+            <div class="family-copy"><p class="mini-label">Antojos de marca</p><h3>Sonric’s</h3><p>Color, sabor y diversión para llenar de alegría cualquier momento.</p><a href="#catalogo" class="family-link" data-jump-filter="sonrics">Ver esta familia <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="family-card family-mexican">
+            <div class="family-image"><img src="images/familia-mexicana.svg" alt="Ilustración de dulces típicos mexicanos de amaranto, tamarindo y oblea" width="520" height="360" loading="lazy"><span class="family-number">02</span></div>
+            <div class="family-copy"><p class="mini-label">Tradición que se comparte</p><h3>Dulces típicos mexicanos</h3><p>Sabores llenos de historia, color y ese toque que sabe a México.</p><a href="#catalogo" class="family-link" data-jump-filter="mexicanos">Ver esta familia <span aria-hidden="true">→</span></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="joy-section" id="nosotros">
+      <div class="page-shell joy-layout">
+        <div class="joy-art"><img src="images/antojo-feliz.svg" alt="Ilustración de una piñata y dulces para compartir" width="540" height="470" loading="lazy"><span class="joy-art-label">Hecho para<br>compartir</span></div>
+        <div class="joy-copy"><p class="eyebrow"><span class="eyebrow-line"></span>Dulcería Chikitines</p><h2>Un dulce siempre<br>encuentra <span>su momento.</span></h2><p>Para consentirte, compartir con tus amigos o ponerle color a una celebración. En Chikitines, cada antojo puede convertirse en un recuerdo bonito.</p><div class="joy-qualities"><span><i>✦</i> Antojos</span><span><i>♡</i> Tradición</span><span><i>☺</i> Alegría</span></div><a class="button button-primary" href="#contacto">Ven a descubrirlos <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div class="page-shell contact-card">
+        <div class="contact-copy"><p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span>Tu próximo antojo te espera</p><h2>¿Qué se te <span>antoja?</span></h2><p>Encuéntranos y consulta el surtido de hoy.</p></div>
+        <div class="contact-links">
+          <a href="https://www.facebook.com/profile.php?id=100068368062816" target="_blank" rel="noopener noreferrer">Facebook <span aria-hidden="true">↗</span></a>
+          <a href="#contacto" aria-label="Instagram, enlace de la tienda pendiente">Instagram · próximamente <span aria-hidden="true">↗</span></a>
+          <a href="#inicio">Página web <span aria-hidden="true">↑</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-shell footer-main">
+      <a class="brand brand-footer" href="#inicio" aria-label="Los Chikitines, volver al inicio"><img class="brand-logo brand-logo-footer" src="images/logo-chikitines.png" alt="Dulcería y más… Los Chikitines" width="814" height="194"></a>
+      <p>Pequeñas alegrías, grandes sonrisas.</p>
+      <a class="footer-top" href="#inicio">Volver arriba ↑</a>
+    </div>
+    <div class="page-shell footer-bottom"><span>Puerto Vallarta, Jalisco</span><span>Catálogo de muestra · Precios por confirmar</span><span>© <span id="year"></span> Dulcería y más… Los Chikitines</span><a class="bd-mark" href="#" aria-label="Barrio Digital"><img src="images/logo-barrio-digital.png" alt="Barrio Digital by Rodrigo — Tu negocio del barrio, ahora online" width="524" height="256"></a><a class="platform-link" id="platformLink" href="#" hidden>Barrio Digital Platform <span aria-hidden="true">↗</span></a></div>
+  </footer>
+
+  <dialog class="product-dialog" id="productDialog" aria-labelledby="dialogTitle">
+    <button class="dialog-close" id="dialogClose" type="button" aria-label="Cerrar detalles">×</button>
+    <div class="dialog-art" id="dialogArt"></div>
+    <div class="dialog-copy"><p class="mini-label" id="dialogCategory"></p><h2 id="dialogTitle"></h2><p id="dialogDescription"></p><p class="dialog-presentation" id="dialogPresentation"></p>
+      <div class="dialog-prices"><div><span>Menudeo por bolsa</span><strong id="dialogRetail"></strong></div><div><span>Mayoreo por bolsa</span><strong id="dialogWholesale"></strong></div></div>
+      <div class="quantity-control"><span>Cantidad de bolsas o paquetes</span><div><button id="quantityMinus" type="button" aria-label="Quitar una presentación">−</button><output id="quantityValue" aria-live="polite">1</output><button id="quantityPlus" type="button" aria-label="Agregar una presentación">+</button></div></div>
+      <div class="dialog-total"><span id="priceTierLabel">Precio de muestra</span><strong id="dialogTotal"></strong></div>
+      <button class="button button-primary add-cart-button" id="addToCart" type="button">Agregar al carrito <span aria-hidden="true">＋</span></button>
+    </div>
+  </dialog>
+
+  <dialog class="cart-dialog" id="cartDialog" aria-labelledby="cartTitle">
+    <div class="cart-heading"><div><p class="mini-label">Tu selección</p><h2 id="cartTitle">Carrito</h2></div><button class="dialog-close" id="cartClose" type="button" aria-label="Cerrar carrito">×</button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-empty" id="cartEmpty">Tu carrito está esperando algo rico. 🍬</div>
+    <div class="cart-footer"><div><span>Total de muestra</span><strong id="cartTotal">$0.00</strong></div><a class="button button-primary" href="https://www.facebook.com/profile.php?id=100068368062816" target="_blank" rel="noopener noreferrer">Consultar pedido <span aria-hidden="true">↗</span></a><small>Precios de ejemplo; pedido sujeto a confirmación.</small></div>
+  </dialog>
+
+  <audio id="candyAudio" src="audio/candy-chime.wav" preload="auto" loop></audio>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "Dulcería Chikitines | Catálogo de antojos",
+  "short_name": "Chikitines",
+  "description": "Un mundo de dulces, colores y sonrisas.",
+  "lang": "es-MX",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff8e9",
+  "theme_color": "#fff4d7",
+  "icons": [
+    { "src": "icons/chikitines-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
