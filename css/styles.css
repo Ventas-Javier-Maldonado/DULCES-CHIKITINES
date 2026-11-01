@@ -453,7 +453,7 @@ h1 { max-width: 580px; margin: 0; color: var(--ink); font-size: clamp(50px, 6.4v
 
 /* Fondo festivo visible, con ilustraciones editables detrás de las secciones. */
 html { background: var(--cream); }
-body { position: relative; isolation: isolate; background: var(--cream) url("../images/fondo-dulceria.svg") center top / 100vw 760px repeat-y; background-attachment: fixed; }
+body { position: relative; isolation: isolate; background: var(--cream) url("../images/fondo-dulceria.jpg") center top / 100vw 760px repeat-y; background-attachment: fixed; }
 .hero { background: rgba(255,248,233,.57); }
 .catalog-section { background: rgba(255,253,248,.82); }
 .family-section { background: rgba(255,248,233,.68); }
