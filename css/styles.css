@@ -506,3 +506,13 @@ body { position: relative; isolation: isolate; background: var(--cream) url("../
   right: 3%;
   bottom: 10%;
 }
+
+.hero-art-card {
+  width: min(100%, 460px);
+  aspect-ratio: 0.88 / 1;
+  border-radius: 50% 50% 46% 46% / 55% 55% 45% 45%;
+}
+
+.hero-art-card img {
+  border-radius: inherit;
+}
