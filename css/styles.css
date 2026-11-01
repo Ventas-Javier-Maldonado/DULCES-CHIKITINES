@@ -472,13 +472,37 @@ body { position: relative; isolation: isolate; background: var(--cream) url("../
 @media (max-width: 420px) { .brand-logo { width: 132px; max-height: 44px; } .cart-trigger { min-height: 37px; gap: 5px; padding-inline: 8px; font-size: 8px; } .cart-trigger > span { min-width: 20px; height: 20px; } .bd-mark { width: 118px; right: 0; bottom: 14px; } .bd-mark img { width: 118px; } }
 @media (max-width: 360px) { .brand-logo { width: 110px; max-height: 37px; } }
 
+/* Foto dentro del huevito, conservando la forma original */
 .hero-art-card {
-  overflow: hidden;
-  border-radius: 50%;
+  overflow: visible;
 }
 
 .hero-art-card img {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
   width: 100%;
   height: 100%;
+  max-width: none;
+  border-radius: inherit;
   object-fit: cover;
+  transform: none;
+}
+
+.hero-art-card::before {
+  z-index: 2;
+}
+
+.art-sticker {
+  z-index: 5;
+}
+
+.sticker-top {
+  top: 10%;
+  left: 3%;
+}
+
+.sticker-bottom {
+  right: 3%;
+  bottom: 10%;
 }
