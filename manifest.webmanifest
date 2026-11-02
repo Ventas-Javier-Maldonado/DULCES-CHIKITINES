@@ -9,6 +9,17 @@
   "background_color": "#fff8e9",
   "theme_color": "#fff4d7",
   "icons": [
-    { "src": "icons/chikitines-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+    {
+      "src": "icons/chikitines-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/chikitines-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }
