@@ -185,7 +185,15 @@ h1 { max-width: 580px; margin: 0; color: var(--ink); font-size: clamp(50px, 6.4v
 .catalog-list { display: flex; flex-direction: column; gap: 13px; }
 .product-row { position: relative; display: grid; grid-template-columns: 130px minmax(180px,1fr) 155px 155px 158px; align-items: center; gap: 17px; min-height: 142px; padding: 15px 20px; border: 1px solid rgba(255,255,255,.95); border-radius: 23px; background: rgba(255,255,255,.9); box-shadow: 0 12px 30px rgba(65,52,71,.09), inset 0 0 0 1px rgba(40,49,75,.045); backdrop-filter: blur(12px); transition: transform .2s ease, box-shadow .2s ease; }
 .product-row:hover { transform: translateY(-3px); box-shadow: 0 17px 36px rgba(65,52,71,.14), inset 0 0 0 1px rgba(119,101,200,.14); }
-.product-photo { width: 130px; height: 106px; object-fit: contain; border-radius: 16px; background: linear-gradient(140deg,#fff0ae,#ffe5d6); }
+.joy-art {
+  overflow: hidden;
+}
+
+.joy-art-label {
+  z-index: 2;
+  right: 9%;
+  bottom: 10%;
+}
 .product-info { min-width: 0; padding-right: 10px; }
 .product-family { display: inline-flex; margin-bottom: 5px; color: var(--purple); font-size: 8px; font-weight: 950; letter-spacing: .12em; text-transform: uppercase; }
 .product-info h3 { margin: 0 0 5px; color: var(--ink); font-size: clamp(17px,2vw,23px); font-weight: 1000; letter-spacing: -.045em; line-height: 1.08; }
